@@ -2,6 +2,7 @@ var numSort = [];
 var numEsco = [];
 
 function sorteio() {
+  if(numEsco.length==6){
   var cont = 0;
   numSort = [];
 
@@ -12,11 +13,17 @@ function sorteio() {
       numSort[cont] = num;
       console.log(numSort);
       cont++;
-    }
+    
   }
+
+  }
+
 
   document.getElementById("sorteados").innerHTML = numSort;
   contAcertos();
+}else {
+  alert("È necessario digitar 6 numeros antes do sorteio")
+}
 }
 
 function getValor(valor, pos) {
