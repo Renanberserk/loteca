@@ -37,6 +37,17 @@ h3{
     border: 1px solid black;
     border-radius: 10px;
 }
-.btnSort{
+footer{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+}
 
+footer > p{
+    color: whitesmoke;
+    font-size: 2em  ;
 }
